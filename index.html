@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8"/>
     <title>Partido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <style>
+      * {
+            padding: 0;
+            margin: 0;
+        }
         @font-face {
             font-family: 'Bungee Layers';
             src: url('../../html_partido/Fonts/BungeeLayers-Regular.otf');
@@ -17,7 +23,8 @@
             src: url('../../html_partido/Fonts/Quicksand-Bold.otf');
         }
         img{
-          width: 100%;
+            object-fit: fill;
+            width: 100%;
             height: 100%;
             position: absolute;
             background-size: cover;
@@ -26,14 +33,21 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             bottom: -2px;
+            overflow: hidden;
             right: 2px;
+            min-width: 100%;
+            min-height: 100%;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+            bottom: 0px;
         }
-        section{
+        section {
             position: relative;
-            top: 130px;
-            margin-left: 200px;
+            top: 305px;
+            margin-left: 330px;
             color: white;
-            font-size: 575%;
+            font-size: 802%;
         }
         #hours{
           padding-right: 45px;
@@ -43,7 +57,40 @@
           padding-left: 60px;
         }
         #seconds{
-          padding-left: 25px;
+          padding-left: 35px;
+        }
+        p{
+          font-family: 'MyriadPro', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        @media (max-width: 800px) {
+          
+              section{
+                position: relative;
+                top: 204px;
+                margin-left: 192px;
+                color: white;
+                font-size: 417%;
+            }
+            #hours {
+                padding-right: 32px;
+            }
+            #minutes {
+                padding-right: 50px;
+                padding-left: 50px;
+            }
+            #seconds {
+                padding-left: 35px;
+            }
+        }
+        @media only screen and (max-width: 768px) {
+          section {
+              position: relative;
+              top: 188px;
+              margin-left: 170px;
+              color: white;
+              font-size: 417%;
+          }
         }
     </style>
   </head>
