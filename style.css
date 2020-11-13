@@ -32,11 +32,11 @@ img {
 }
 
 section {
-  position: relative;
-    top: 43px;
-    margin-left: 148px;
+    position: relative;
+    top: 46px;
+    margin-left: 150px;
     color: white;
-    font-size: 586%;
+    font-size: 579%;
 }
 
 #hours {
@@ -65,7 +65,7 @@ h4 {
 }
 
 .falta {
-  margin-bottom: 0px;
+  margin-bottom: -27px;
   margin-left: 290px;
 }
 
