@@ -7,24 +7,45 @@
 </head>
 
 <body>
-  <div>
-    <img src="img/partido.png" alt="">
-  </div>
-  <section>
-    <div class="falta">
-      <h4>Falta</h4>
+  <div id="contenido" class="content">
+    <div>
+      <img src="img/partido.png" alt="">
     </div>
-    <p>
-      <span id="days"></span><span id="hours"></span> : <span id="minutes"></span> : <span id="seconds"></span>
-    </p>
-    <div class="nombres_div">
-      <p class="nombres">
-        <span id="hor">HORAS</span> <span id="min">MINUTOS</span><span>SEGUNDOS</span>
+    <section >
+      <div class="falta">
+        <h4>Falta</h4>
+      </div>
+      <p>
+        <span id="days"></span><span id="hours"></span> : <span id="minutes"></span> : <span id="seconds"></span>
       </p>
-    </div>
-
-  </section>
+      <div class="nombres_div">
+        <p class="nombres">
+          <span id="hor">HORAS</span> <span id="min">MINUTOS</span><span>SEGUNDOS</span>
+        </p>
+      </div>
+  
+    </section>
+  </div>
+  <div id="contenido3" class="content3">
+    <img src="img/partido2.png">
+</div>
   <script>
+      
+var content = document.getElementById('contenido');
+var content3 = document.getElementById('contenido3');
+function init() {
+  setTimeout(() => {
+    content.style.display = "block";
+    content3.style.display = "none";
+  }, 0);
+  setTimeout(() => {
+    content.style.display = "none";
+    content3.style.display = "block";
+  }, 3500);
+}
+
+init();
+
     document.addEventListener('DOMContentLoaded', () => {
 
       //===
