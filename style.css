@@ -75,12 +75,12 @@ h4 {
 }
 
 #hor {
-  margin-right: 115px;
-  margin-left: 22 px;
+  margin-right: 112px;
+    margin-left: 6px;
 }
 
 #min {
-  margin-right: 122px;
+  margin-right: 72px;
 }
 
 @media (max-width: 800px) {
