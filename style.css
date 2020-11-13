@@ -34,7 +34,7 @@ img {
 section {
   position: relative;
   top: 66px;
-  margin-left: 160px;
+  margin-left: 120px;
   color: white;
   font-size: 650%;
 }
@@ -44,12 +44,12 @@ section {
 }
 
 #minutes {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 0px;
 }
 
 #seconds {
-  padding-left: 10px;
+  padding-left: 18px;
 }
 
 p {
@@ -66,7 +66,7 @@ h4 {
 
 .falta {
   margin-bottom: 0px;
-  margin-left: 266px;
+  margin-left: 290px;
 }
 
 .nombres {
@@ -76,7 +76,7 @@ h4 {
 
 #hor {
   margin-right: 115px;
-  margin-left: -33px;
+  margin-left: 22 px;
 }
 
 #min {
@@ -88,7 +88,7 @@ h4 {
   section {
     position: relative;
     top: 53px;
-    margin-left: 155px;
+    margin-left: 120px;
     color: white;
     font-size: 417%;
   }
